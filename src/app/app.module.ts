@@ -10,6 +10,8 @@ import { HomeBannerComponent } from './home/components/home-banner/home-banner.c
 import { HomeTopCategoriesComponent } from './home/components/home-top-categories/home-top-categories.component';
 import { HomeTopProductsComponent } from './home/components/home-top-products/home-top-products.component';
 import { HomeServicesComponent } from './home/components/home-services/home-services.component';
+import { ShopComponent } from './shop/shop.component';
+import { PageBannerComponent } from './page-banner/page-banner.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HomeServicesComponent } from './home/components/home-services/home-serv
     HomeBannerComponent,
     HomeTopCategoriesComponent,
     HomeTopProductsComponent,
-    HomeServicesComponent
+    HomeServicesComponent,
+    ShopComponent,
+    PageBannerComponent
   ],
   imports: [
     BrowserModule,
