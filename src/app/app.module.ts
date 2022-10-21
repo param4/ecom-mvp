@@ -12,6 +12,7 @@ import { HomeTopProductsComponent } from './home/components/home-top-products/ho
 import { HomeServicesComponent } from './home/components/home-services/home-services.component';
 import { ShopComponent } from './shop/shop.component';
 import { PageBannerComponent } from './page-banner/page-banner.component';
+import { ProductItemComponent } from './product-item/product-item.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PageBannerComponent } from './page-banner/page-banner.component';
     HomeTopProductsComponent,
     HomeServicesComponent,
     ShopComponent,
-    PageBannerComponent
+    PageBannerComponent,
+    ProductItemComponent
   ],
   imports: [
     BrowserModule,
